@@ -94,17 +94,18 @@ describe("Operaciones aritmeticas en JavaScript", () => {
 
 // TERCERA PARTE: A partir de aquí, se nos complica un poco la tarea. Analiza bien qué pide cada test para saber qué variables debes crear y cómo.
 
+
 describe("Comparaciones en JavaScript", () => {
     it("Usando el comparador de igualdad ===", () => {
         const number = 20;
-         let expression = false;
+         let expression = 5 === number;
 
         assert.strictEqual(expression,false);
     })
 
     it("Usando el comparador de diferencia !==", () => {
         const language = "JavaScript";
-        let expression = false;
+        let expression = language !== "JavaScript"
 
         assert.strictEqual(expression,false);
     })
