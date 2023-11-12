@@ -113,7 +113,8 @@ describe("Comparaciones en JavaScript", () => {
 
 describe("Algebra booleana", () => {
     it("Usando el operador AND (&&)", () => {
-        // Escribe aquí tu código
+      let a = true;
+      let b = true;
 
         const expression = a && b;
 
@@ -121,7 +122,8 @@ describe("Algebra booleana", () => {
     })
 
     it("Usando el operador OR (||)", () => {
-        // Escribe aquí tu código
+        let c = false;
+        let d = false;
 
         const expression = c || d;
 
@@ -134,7 +136,9 @@ describe("Algebra booleana", () => {
 
 describe("Operaciones con JavaScript", () => {
     it("Completa las variables que faltan para pasar los tests, toca darle al coco!", () => {
-        // Escribe aquí tu código
+        let a = 6;
+        let b = 5;
+        let c = 2;
 
         assert.strictEqual(a+b,11);
         assert.strictEqual(b+c,7);
@@ -142,14 +146,21 @@ describe("Operaciones con JavaScript", () => {
     })
 
     it("Completa las variables que faltan para pasar los tests", () => {
-        // Escribe aquí tu código
+        let d = 11;
+        let e = 2;
+        let f = 20;
 
         assert.strictEqual(d*e,22);
         assert.strictEqual(e*f,40);
     })
 
     it("Completa las variables que faltan para pasar los tests", () => {
-        // Escribe aquí tu código
+        
+        let a = 10;
+        let b = 100;
+        let c = undefined;
+        let d = "Hello";
+        let e = "Elemento";
 
         assert.strictEqual(a > 9, true);
         assert.strictEqual(a < 11, true);
