@@ -41,6 +41,13 @@ describe("Funciones en JavaScript", () => {
 
         // Escribe aquí tu función "weatherReport" (fíjate en la aserción para saber qué debe retornar esta función).
 
+
+    let diaslaborables = new Array();
+    diaslaborables = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes'];
+    diaslaborables.forEach(function(valor, ind, lista){ 
+        lista[ind] = valor.toUpperCase();
+         });
+
         assert.strictEqual(weatherReport(userName, name, city, weather, rainProbability),"Hola Ada Martín (ada89), hoy en Las Vegas el tiempo es soleado y las probabilidades de lluvia son del 10%.")
     })
 
